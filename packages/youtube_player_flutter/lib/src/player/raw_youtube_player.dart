@@ -73,7 +73,7 @@ class _RawYoutubePlayerState extends State<RawYoutubePlayer>
         key: widget.key,
         initialData: InAppWebViewInitialData(
           data: player,
-          baseUrl: WebUri.uri(Uri.https('https://www.youtube-nocookie.com')),
+          baseUrl: WebUri.uri(Uri.https('www.youtube-nocookie.com')),
           encoding: 'utf-8',
           mimeType: 'text/html',
         ),
